@@ -30,9 +30,10 @@ int main() {
     // Pasamos las direcciones de las variables n1 y n2 a las funciones
     printf("La suma es: %.2f\n", suma(&n1, &n2));
     printf("La resta es: %.2f\n", resta(&n1, &n2));
-    printf("La multiplicación es: %.2f\n",
-
+    printf("La multiplicar es: %.2f\n", multiplicar(&n1, &n2));
+    printf("La division es: %.2f\n", division(&n1, &n2));
+}
 /*
 -recordemos que cuando uno usa scanf(tiene que declarar que "%f" lo agarra  y lo guarada en la variable que quieras)
 -"%.2f\n" es la cantidad de decimales que quieres que muestre en pantalla 
--
+*/
